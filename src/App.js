@@ -6,6 +6,13 @@ import Temp from './assets/Temp 2.png';
 import Humidity from './assets/Humidity.png';
 import Wind from './assets/Wind.png';
 import axios from 'axios';
+import bg from './assets/backgrounds/2.jpg';
+
+const styles = {
+  backgroundImage: `url(${bg})`,
+  backgroundSize: 'cover',
+  height: '100vh',
+};
 
 function App() {
   const [city, setCity] = useState('');

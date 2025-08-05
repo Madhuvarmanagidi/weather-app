@@ -15,7 +15,6 @@ body, html, #root {
   display: flex;
   height: 100%;
   background-color: #06202e;
-  background-image: url('D:\NextBridge Technologies\React\weather-app\src\assets\backgrounds\2.jpg');
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
