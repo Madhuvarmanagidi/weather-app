@@ -45,7 +45,7 @@ function App() {
   };
 
   return (
-    <div className="app">
+  <div className="app" style={{ backgroundImage: `url(${bg})` }}>
       {/* NAVBAR */}
       <header className="navbar">
         <img src={logo} alt="NextBridge Logo" className="logo" />
