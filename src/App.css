@@ -1,0 +1,176 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html, #root {
+  height: 100%;
+}
+
+/* App background and layout */
+.app {
+  display: flex;
+  height: 100%;
+  background-color: #06202e;
+  background-image: url('D:\NextBridge Technologies\React\weather-app\src\assets\backgrounds\2.jpg');
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Navigation Bar */
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  height: 40px;
+  margin-right: 225%;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.navbar li:hover {
+  text-decoration: underline;
+}
+
+/* Left Side - Info Panel */
+.left-panel {
+  flex: 1;
+  padding: 100px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.left-panel h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.left-panel p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
+/* Right Side - Search and Results */
+.right-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 40px;
+  justify-content: space-between;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-section input {
+  width: 60%;
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.search-section button {
+  padding: 12px 20px;
+  background-color: #f59e0b;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-section button:hover {
+  background-color: #d97706;
+}
+
+.result-section {
+  padding-top: 40px;
+  text-align: center;
+  color: #06202e;
+}
+
+.result-section h2 {
+  font-size: 28px;
+  margin-top: 10%;
+}
+
+.result-section p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.rain{
+  height: 60px;
+  width: 60px;
+}
+.temp{
+  height: 40px;
+  width: 50px;
+}
+.humidity{
+  height: 35px;
+  width: 35px;
+}
+.wind{
+  height: 45px;
+  width: 45px;
+}
+.results{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 5%;
+}
+.results_1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.results_2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+}
